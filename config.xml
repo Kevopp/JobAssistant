@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.jobcounter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>JobAssistant</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="" href="">Kewin Woźny</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="res/android/calendarIcon.png"/>
+        <splash density="ldpi" src="res/android/drawable-land-ldpi-screen.png" />
+        <splash density="mdpi" src="res/android/drawable-land-mdpi-screen.png" />
+        <splash density="hdpi" src="res/android/drawable-land-hdpi-screen.png" />
+        <splash density="xhdpi" src="res/android/drawable-land-xhdpi-screen.png" />
+        <splash density="xxhdpi" src="res/android/drawable-land-xxhdpi-screen.png" />
+        <splash density="xxxhdpi" src="res/android/drawable-land-xxxhdpi-screen.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="0"/>
+    <preference name="orientation" value="portrait"/>
+</widget>
+

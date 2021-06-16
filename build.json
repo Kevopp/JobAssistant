@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "C:/Users/kicks/OneDrive/Pulpit/Projekty_2020/JobCounterProject/platforms/android/keystore/appreleasedemo.keystore",
+            "storePassword": "513506kivi",
+            "alias": "appreleasedemoalias",
+            "password" : "513506kivi",
+            "keystoreType": "jks"
+        },
+        "release": {
+            "keystore": "C:/Users/kicks/OneDrive/Pulpit/Projekty_2020/JobCounterProject/platforms/android/keystore/appreleasedemo.keystore",
+            "storePassword": "513506kivi",
+            "alias": "appreleasedemoalias",
+            "password" : "513506kivi",
+            "keystoreType": "jks"
+        }
+    }
+}

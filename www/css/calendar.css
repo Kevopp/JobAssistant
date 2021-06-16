@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#calendarMainContainer {
+    width: 100%;
+    height: 100%;
+}
+
+
+#chooseDateContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    font-family: "Comforta";
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#monthContainer {
+    display: none;
+}
+
+
+#monthContainer h2 {
+    text-align: center;
+    font-family: "Comforta";
+    padding: 10px;
+    margin: 0;
+}
+
+
+#calendarContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: "Comforta";
+    color: black;
+    margin-top: 20px;
+}
+
+
+#calendarContainer h3, #calendarContainer p {
+    width: 14.28%;
+    height: 14.28%;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#calendarContainer h3 {
+    font-weight: bold;
+}
+
+
+#calendarContainer p {
+    font-size: 5vw;
+    border-radius: 50%;
+}
+
+
+#jobMarkersContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.hoursMarkerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+
+.hoursMarkerItem p {
+    margin: 10px;
+}
